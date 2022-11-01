@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: 在您設定Azure Active Directory應用程式之後、Azure NetApp Files 請在Cloud Manager中建立一個運作不正常的環境、以便您開始建立所需的磁碟區。 
+summary: 在您設定Azure Active Directory應用程式之後、Azure NetApp Files 請在BlueXP中建立一個運作環境、以便您開始建立所需的磁碟區。 
 ---
 = 打造 Azure NetApp Files 一個不一樣的工作環境
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在您設定Azure Active Directory應用程式之後、Azure NetApp Fil
 
 
 [role="lead"]
-在您設定Azure Active Directory應用程式之後、Azure NetApp Files 請在Cloud Manager中建立一個運作不正常的環境、以便您開始建立所需的磁碟區。
+在您設定Azure Active Directory應用程式之後、Azure NetApp Files 請在BlueXP中建立一個運作環境、以便您開始建立所需的磁碟區。
 
 .步驟
 . 在「畫版」頁面中、按一下「 * 新增工作環境 * 」。

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: Cloud Manager 需要權限來設定及管理 Azure NetApp Files 功能。您可以建立及設定Azure Active Directory應用程式、並取得Cloud Manager所需的Azure認證資料、將必要的權限授予Azure帳戶。 
+summary: BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定Azure Active Directory應用程式、並取得BlueXP所需的Azure認證資料、將必要的權限授予Azure帳戶。 
 ---
 = 設定 Azure AD 應用程式
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Cloud Manager 需要權限來設定及管理 Azure NetApp Files 功能�
 
 
 [role="lead"]
-Cloud Manager 需要權限來設定及管理 Azure NetApp Files 功能。您可以建立及設定Azure Active Directory（AD）應用程式、並取得Cloud Manager所需的Azure認證資料、將必要的權限授予Azure帳戶。
+BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定Azure Active Directory（AD）應用程式、並取得BlueXP所需的Azure認證資料、將必要的權限授予Azure帳戶。
 
 
 
 == 建立AD應用程式
 
-建立Azure AD應用程式與服務主體、讓Cloud Manager可用於角色型存取控制。
+建立Azure AD應用程式與服務主體、以便BlueXP用於角色型存取控制。
 
 您必須在 Azure 中擁有適當權限、才能建立 Active Directory 應用程式、並將應用程式指派給角色。如需詳細資訊、請參閱 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 說明文件：必要權限"^]。
 
@@ -36,7 +36,7 @@ image:screenshot_azure_ad.gif["顯示Microsoft Azure中Active Directory服務的
 .. 指定應用程式的詳細資料：
 +
 *** * 名稱 * ：輸入應用程式的名稱。
-*** * 帳戶類型 * ：選取帳戶類型（任何帳戶類型都可與 Cloud Manager 搭配使用）。
+*** *帳戶類型*：選取帳戶類型（任何帳戶類型均可用於BlueXP）。
 *** * 重新導向 URI* ：您可以保留此空白。
 
 
@@ -48,9 +48,9 @@ image:screenshot_azure_ad.gif["顯示Microsoft Azure中Active Directory服務的
 image:screenshot_anf_app_ids.gif["顯示 Azure Active Directory 中應用程式的應用程式（用戶端） ID 和目錄（租戶） ID 的快照。"]
 
 +
-在 Azure NetApp Files Cloud Manager 中建立功能不全的環境時、您需要提供應用程式的應用程式（用戶端） ID 和目錄（租戶） ID 。Cloud Manager 會使用 ID 以程式設計方式登入。
+在Azure NetApp Files BlueXP中建立功能不全的環境時、您需要提供應用程式的應用程式（用戶端）ID和目錄（租戶）ID。BlueXP使用ID以程式設計方式登入。
 
-. 為應用程式建立用戶端機密、以便 Cloud Manager 使用它來驗證 Azure AD ：
+. 建立應用程式的用戶端機密、以便BlueXP使用它來驗證Azure AD：
 +
 .. 按一下 * 「憑證與機密」 > 「新用戶端機密」 * 。
 .. 提供機密與持續時間的說明。
@@ -63,7 +63,7 @@ image:screenshot_anf_client_secret.gif["Azure 入口網站的快照、顯示 Azu
 
 
 
-您的 AD 應用程式現在已設定完成、您應該已經複製應用程式（用戶端） ID 、目錄（租戶） ID 、以及用戶端機密的值。當您新增 Azure NetApp Files 功能正常的環境時、必須在 Cloud Manager 中輸入此資訊。
+您的 AD 應用程式現在已設定完成、您應該已經複製應用程式（用戶端） ID 、目錄（租戶） ID 、以及用戶端機密的值。新增Azure NetApp Files 功能不正常的環境時、您必須在BlueXP中輸入此資訊。
 
 
 
@@ -127,7 +127,7 @@ image:screenshot_anf_app_role.png["Azure入口網站的快照、顯示Azure入�
 
 .. 按一下「*檢閱+指派*」。
 +
-Cloud Manager 的服務主體現在擁有該訂閱所需的 Azure 權限。
+BlueXP的服務主體現在擁有該訂閱所需的Azure權限。
 
 
 

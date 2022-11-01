@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: 瞭Azure NetApp Files 解Cloud Manager的支援功能的最新功能。 
+summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。 
 ---
 = 新功能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 瞭Azure NetApp Files 解Cloud Manager的支援功能的最新功能。
 
 
 [role="lead"]
-瞭Azure NetApp Files 解Cloud Manager的更新功能。
+瞭Azure NetApp Files 解BlueXP的更新功能。
 
 
 

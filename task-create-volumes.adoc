@@ -22,7 +22,7 @@ summary: 設定工作環境之後、您就可以建立Azure NetApp Files 各種�
 
 您可以在新 Azure NetApp Files 的或現有的支援帳戶中建立 NFS 或 SMB 磁碟區。
 
-Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例如資料庫或串流服務）的工作負載需求、建立最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <<Create volumes from templates,這些步驟>>。
+稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循  volumes from templates,這些步驟。
 
 .開始之前
 * 若要使用SMB、您必須設定DNS和Active Directory。
@@ -67,7 +67,7 @@ image:screenshot_anf_smb.gif["設定SMB Volume所需欄位的快照。"]
 
 新磁碟區會新增至工作環境。
 
-繼續 <<Mount volumes,掛載雲端Volume>>。
+繼續  volumes,掛載雲端Volume。
 
 
 
@@ -96,11 +96,11 @@ image:screenshot_define_anf_vol_from_template.png["顯示空白範本的螢幕�
 +
 *注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
 
-. 新增所有非模板硬編碼的參數值。請參閱 <<Creating volumes,建立磁碟區>> 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。
+. 新增所有非模板硬編碼的參數值。請參閱  volumes,建立磁碟區 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。
 . 定義完此Volume所需的所有參數後、請按一下*執行範本*。
 
 
-Cloud Manager會配置磁碟區並顯示頁面、以便您查看進度。
+BlueXP會配置磁碟區並顯示頁面、以便您查看進度。
 
 image:screenshot_template_creating_resource_anf.png["快照顯示從範本建立新磁碟區的進度。"]
 
@@ -112,7 +112,7 @@ image:screenshot_template_creating_resource_anf.png["快照顯示從範本建立
 
 == 掛載磁碟區
 
-從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。
+從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。
 
 .步驟
 . 開啟工作環境。

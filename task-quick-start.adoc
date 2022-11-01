@@ -23,7 +23,7 @@ summary: 請依照下列步驟快速入門、或向下捲動至其餘部分以�
 link:task-set-up-azure-ad.html["瞭解如何設定Azure AD應用程式"]。
 
 [role="quick-margin-para"]
-在 Cloud Manager 中、按一下 * 新增工作環境 * > * Microsoft Azure * > * Azure NetApp Files Sfor * 、然後提供 AD 應用程式的詳細資料。
+在BluXP中、按一下*新增工作環境*>* Microsoft Azure *>* Azure NetApp Files S供*、然後提供AD應用程式的詳細資料。
 
 [role="quick-margin-para"]
 link:task-create-working-env.html["瞭解如何建立工作環境"]。

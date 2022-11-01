@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove azure netapp files, remove anf, remove working environment 
-summary: 此動作會從 Azure NetApp Files Cloud Manager 移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以 Azure NetApp Files 隨時將此資料加入 Cloud Manager 。 
+summary: 此動作會從Azure NetApp Files BlueXP移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以Azure NetApp Files 隨時將此更新加入到BlueXP。 
 ---
 = 移除Azure NetApp Files
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 此動作會從 Azure NetApp Files Cloud Manager 移除不必要的功�
 
 
 [role="lead"]
-此動作會從 Azure NetApp Files Cloud Manager 移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以 Azure NetApp Files 隨時將此資料加入 Cloud Manager 。
+此動作會從Azure NetApp Files BlueXP移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以Azure NetApp Files 隨時將此更新加入到BlueXP。
 
 .步驟
 . 開放 Azure NetApp Files 整個作業環境。
 . 在頁面右上角、選取「 actions （動作）」功能表、然後按一下「 * 移除 Azure NetApp Files 」「 S供 參考 * 」。
 +
-image:screenshot_anf_remove.gif["按一下「移除Azure NetApp Files 不全」以從Cloud Manager介面移除磁碟區的快照。"]
+image:screenshot_anf_remove.gif["按一下「移除Azure NetApp Files 功能」以從BlueXP介面移除磁碟區的快照。"]
 
 . 按一下「 * 移除 * 」以確認。
 
