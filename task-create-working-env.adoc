@@ -26,8 +26,10 @@ image:screenshot_anf_details.gif["建立 Azure NetApp Files 功能不全的環�
 . 按一下「 * 新增 * 」。
 
 
+.結果
 現在您應該擁有 Azure NetApp Files 一個不再只是運作的環境。
 
 image:screenshot_anf_we.gif["一份關於整個作業環境的快照 Azure NetApp Files 。"]
 
+.接下來呢？
 link:task-create-volumes.html["開始建立及管理磁碟區"]。
