@@ -64,7 +64,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
@@ -246,7 +245,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="0b7a672df763c13d4ee88f17e17d5dd5" category="list-text">在 _actions_ 下新增下列權限：</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP的其他功能</block>
-  <block id="7d80851a767857c9d6f9bdd94c3d031e" category="list-text">直接從BlueXP（前身為Cloud Manager）將NFS或SMB資料移轉Azure NetApp Files 至支援功能。資料移轉是以 NetApp Cloud Sync 的「支援」服務為後盾。</block>
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">請注意、您的訂閱和收費是Azure NetApp Files 由不受BlueXP保護的功能所維護。</block>
   <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP網站Azure NetApp Files</block>
   <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
@@ -439,4 +437,6 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="6ecf0fff968ff9d17f1f524f90c9a9fe" category="list-text">直接從 BlueXP 將 NFS 或 SMB 資料移轉至 Azure NetApp Files 。資料移轉是以 NetApp Cloud Sync 的「支援」服務為後盾。</block>
 </blocks>
