@@ -29,13 +29,13 @@ summary: 支援企業在 Azure 中移轉及執行效能密集且對延遲敏感�
 
 == BlueXP的其他功能
 
-* 直接從 BlueXP 將 NFS 或 SMB 資料移轉至 Azure NetApp Files 。資料移轉是以 NetApp Cloud Sync 的「支援」服務為後盾。
+* 直接從 BlueXP 將 NFS 或 SMB 資料移轉至 Azure NetApp Files 。資料移轉採用 BlueXP 複本與同步處理技術。
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["深入瞭Cloud Sync 解功能"^]
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["深入瞭解 BlueXP 複製與同步"^]
 
-* Cloud Data Sense採用人工智慧（AI）導向技術、可協助您瞭解資料內容、並識別Azure NetApp Files 駐留在您的不實帳戶中的敏感資料。
+* BlueXP 分類採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別 Azure NetApp Files 帳戶中的機密資料。
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["深入瞭解Cloud Data Sense"^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["深入瞭解 BlueXP 分類"^]
 
 
 
@@ -65,5 +65,5 @@ https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援的 Azure 地
 
 * https://cloud.netapp.com/azure-netapp-files["NetApp BlueXP網站Azure NetApp Files"^]
 * https://docs.microsoft.com/azure/azure-netapp-files/["本文檔 Azure NetApp Files"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/index.html["本文檔 Cloud Sync"^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/index.html["BlueXP 複本與同步文件"^]
 

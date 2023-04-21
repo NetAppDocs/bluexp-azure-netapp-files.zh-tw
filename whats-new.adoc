@@ -70,4 +70,4 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 === 資料移轉至Azure NetApp Files
 
-您現在可以Azure NetApp Files 直接從Cloud Manager將NFS或SMB資料移轉至支援功能。資料同步是由NetApp Cloud Sync 的《不同步服務（Syncss）：
+您現在可以Azure NetApp Files 直接從Cloud Manager將NFS或SMB資料移轉至支援功能。資料同步是由 BlueXP 複本與同步處理所驅動。
