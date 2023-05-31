@@ -26,8 +26,8 @@ summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。
 
 全新的應用程式範本服務可讓您設定Azure NetApp Files 適用於各種應用程式的Volume範本。範本應能讓您的工作更輕鬆、因為範本中已定義了某些Volume參數、例如容量集區、大小、傳輸協定、vnet和磁碟區應位於的子網路等。當參數已預先定義時、您只需跳至下一個Volume參數即可。
 
-* https://docs.netapp.com/us-en/cloud-manager-app-template/concept-resource-templates.html["深入瞭解應用程式範本、以及如何在環境中使用這些範本"^]
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html["瞭解如何Azure NetApp Files 從範本建立一套功能不全的功能"]
+* https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html["深入瞭解應用程式範本、以及如何在環境中使用這些範本"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html["瞭解如何Azure NetApp Files 從範本建立一套功能不全的功能"]
 
 
 
@@ -40,7 +40,7 @@ summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。
 
 您現在可以動態變更磁碟區的服務層級、以滿足工作負載需求並最佳化成本。該磁碟區會移至其他容量集區、而不會影響該磁碟區。
 
-https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level["瞭解如何變更Volume的服務層級"]。
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level["瞭解如何變更Volume的服務層級"]。
 
 
 
