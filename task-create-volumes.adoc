@@ -97,7 +97,7 @@ image:screenshot_define_anf_vol_from_template.png["顯示空白範本的螢幕�
 +
 *注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
 
-. 新增所有非模板硬編碼的參數值。請參閱 <<Creating volumes,建立磁碟區>> 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。
+. 新增所有非模板硬編碼的參數值。請參閱 <<建立磁碟區,建立 Volume>> 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。
 . 定義完此Volume所需的所有參數後、請按一下*執行範本*。
 
 
