@@ -18,7 +18,7 @@ BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立�
 
 
 
-== 建立AD應用程式
+== 步驟 1 ：建立 AD 應用程式
 
 建立Azure AD應用程式與服務主體、以便BlueXP用於角色型存取控制。
 
@@ -69,7 +69,7 @@ image:screenshot_anf_client_secret.gif["Azure 入口網站的快照、顯示 Azu
 
 
 
-== 將應用程式指派給角色
+== 步驟 2 ：將應用程式指派給角色
 
 您必須將服務主體繫結至您的 Azure 訂閱、並指派具有必要權限的自訂角色給它。
 
@@ -137,7 +137,7 @@ BlueXP的服務主體現在擁有該訂閱所需的Azure權限。
 
 
 
-== 將認證資料新增至藍圖XP
+== 步驟 3 ：將認證新增至 BlueXP
 
 當您建立Azure NetApp Files 支援功能的環境時、系統會提示您選擇與服務主體相關的認證資料。在建立工作環境之前、您必須先將這些認證資料新增至BlueXP。
 
@@ -155,7 +155,7 @@ image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」�
 *** 應用程式（用戶端）ID
 *** 目錄（租戶）ID
 +
-您應該在掌握這項資訊的同時 <<建立AD應用程式,已建立AD應用程式>>。
+您應該在掌握這項資訊的同時 <<Create the AD application,已建立AD應用程式>>。
 
 
 

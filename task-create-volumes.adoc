@@ -4,7 +4,7 @@ permalink: task-create-volumes.html
 keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume 
 summary: 設定工作環境之後、您就可以建立Azure NetApp Files 各種帳戶、容量資源池和磁碟區。 
 ---
-= 建立並掛載Volume以Azure NetApp Files 供使用
+= 建立及掛載磁碟區
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

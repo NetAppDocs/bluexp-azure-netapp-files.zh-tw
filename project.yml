@@ -14,12 +14,14 @@ sidebar:
   - title: 文件Azure NetApp Files
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 深入瞭解 Azure NetApp Files
       url: "/concept-azure-netapp-files.html"
-    - title: 快速入門
+    - title: 快速入門工作流程
       url: "/task-quick-start.html"
     - title: 設定 Azure AD 應用程式
       url: "/task-set-up-azure-ad.html"

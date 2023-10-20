@@ -11,7 +11,6 @@
   <block id="2d8388ef854dfa09cecb11936ccce248" category="inline-link-macro">開始建立及管理磁碟區</block>
   <block id="7287a568988e3d4791216dba265eeae9" category="paragraph"><block ref="1e09faaddd6af4b1a47324cf37312df0" category="inline-link-macro-rx"></block>。</block>
   <block id="9f6195430155a4712fbd4733de1876ca" category="doc">設定 Azure AD 應用程式</block>
-  <block id="250e9326aa08333e3f698ab1ba29c77e" category="section-title">建立AD應用程式</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 說明文件：必要權限</block>
   <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">您必須在 Azure 中擁有適當權限、才能建立 Active Directory 應用程式、並將應用程式指派給角色。如需詳細資訊、請參閱<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block>。</block>
   <block id="c9bae6707a626ab71ed3b97345b5becf" category="list-text">從 Azure 入口網站開啟 * Azure Active Directory * 服務。</block>
@@ -32,7 +31,6 @@
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">複製用戶端機密的值。</block>
   <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure 入口網站的快照、顯示 Azure AD 服務主體的用戶端機密。</block>
   <block id="950ba75831d4d2d13e40a65143eb8494" category="paragraph"><block ref="950ba75831d4d2d13e40a65143eb8494" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="50cb14609454c06c47e95e9d8a56adb5" category="section-title">將應用程式指派給角色</block>
   <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">您必須將服務主體繫結至您的 Azure 訂閱、並指派具有必要權限的自訂角色給它。</block>
   <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">在 Azure 中建立自訂角色</block>
   <block id="ef25c1a0b85945d65e29d5346a5dd23f" category="list-text"><block ref="e0180ab247b74a9d02ca0dcc4d9ef2d3" category="inline-link-rx"></block>。</block>
@@ -73,7 +71,6 @@
   <block id="efe74b5ca066da05f9df0c24eabbf492" category="list-text">在頁面右上角、選取「 actions （動作）」功能表、然後按一下「 * 移除 Azure NetApp Files 」「 S供 參考 * 」。</block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">按一下「 * 移除 * 」以確認。</block>
   <block id="00cac13dd28e1d8ca100e2d8ab02878c" category="summary">設定工作環境之後、您可以管理Azure NetApp Files 各種帳戶、容量資源池、磁碟區和快照。</block>
-  <block id="a420aa39e55724ac60bb395b9bf12764" category="doc">管理Volume以供Azure NetApp Files 使用</block>
   <block id="a2669b974873fd7c51079b5fcd7d7946" category="paragraph">您可以在儲存需求變更時管理現有的磁碟區。您可以編輯磁碟區、變更磁碟區的服務層級、管理Snapshot複本、以及刪除磁碟區。</block>
   <block id="8cbb6213062bff0f8ae5d9232049a4ae" category="paragraph">建立磁碟區之後、您可以隨時修改其大小和標記。</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">開啟工作環境。</block>
@@ -143,20 +140,12 @@
   <block id="edc3629fc8102552dbd6ec1e10e2b821" category="paragraph">如需 Azure NetApp Files 有關支援方面的技術支援問題、請使用 Azure 入口網站將支援要求記錄給 Microsoft 。選取您的相關 Microsoft 訂閱、然後在 Azure NetApp Files * Storage* 下選取 * 《 * 》服務名稱。提供建立 Microsoft 支援要求所需的其餘資訊。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">相關連結</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
-  <block id="2433628c53fed80ea9d352a1bcd9ce45" category="summary">請依照下列步驟快速入門、或向下捲動至其餘部分以取得完整詳細資料。</block>
-  <block id="5bfad4d83a647919018a0bb53b602ce1" category="doc">快速入門Azure NetApp Files</block>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="paragraph">請依照下列步驟快速入門、或依照連結取得完整詳細資料。</block>
   <block id="5ef8b3581bd08eb7bd7df9da47cee4d9" category="paragraph">從 Azure 授予 Azure AD 應用程式權限、並複製應用程式（用戶端） ID 、目錄（租戶） ID 及用戶端機密的值。</block>
-  <block id="4a6368bcf7e7a78b87f63c25a1738dcd" category="inline-link-macro">瞭解如何設定Azure AD應用程式</block>
-  <block id="907e63fbdb2ca8abc79587ef5c9c9829" category="paragraph"><block ref="44b9747affc4b1ae04a7846ac71363e4" category="inline-link-macro-rx"></block>。</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">瞭解如何建立工作環境</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">設定工作環境之後、您就可以建立Azure NetApp Files 各種帳戶、容量資源池和磁碟區。</block>
-  <block id="ba0aa3e7264cbd8d5a1204a3f3d868cc" category="doc">建立並掛載Volume以Azure NetApp Files 供使用</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">您可以在新 Azure NetApp Files 的或現有的支援帳戶中建立 NFS 或 SMB 磁碟區。</block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">這些步驟</block>
@@ -228,7 +217,6 @@
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">請注意、您的訂閱和收費是Azure NetApp Files 由不受BlueXP保護的功能所維護。</block>
   <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP網站Azure NetApp Files</block>
   <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
-  <block id="fa52f608cc50f582873e04542e1b242b" category="paragraph">在BluXP中、按一下*新增工作環境*&gt;* Microsoft Azure *&gt;* Azure NetApp Files S供*、然後提供AD應用程式的詳細資料。</block>
   <block id="13c43cfa248ee9ee48d1991c668474b0" category="summary">此動作會從Azure NetApp Files BlueXP移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以Azure NetApp Files 隨時將此更新加入到BlueXP。</block>
   <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">按一下「移除Azure NetApp Files 功能」以從BlueXP介面移除磁碟區的快照。</block>
   <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
@@ -304,9 +292,7 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
-  <block id="467ae1621770a63d57b4f6f548f0e4db" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 設定 Azure AD 應用程式</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
-  <block id="23264ef18907414c2a02af5eb5d5b56a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 打造 Azure NetApp Files 一個不一樣的工作環境</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">複製上述步驟2的帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
@@ -314,7 +300,6 @@
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
-  <block id="6186e185b0ea9b1c5909f6190ea935aa" category="section-title">將認證資料新增至藍圖XP</block>
   <block id="6da49039903bd37fcbedcd3b748acd84" category="paragraph">當您建立Azure NetApp Files 支援功能的環境時、系統會提示您選擇與服務主體相關的認證資料。在建立工作環境之前、您必須先將這些認證資料新增至BlueXP。</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">顯示BlueXP主控台右上角「設定」圖示的快照。</block>
@@ -446,4 +431,13 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="0e9444646fd7a9680fc38b22818537e3" category="section-title">步驟 1 ：建立 AD 應用程式</block>
+  <block id="fb9a62d97d21e431e752501f84624d12" category="section-title">步驟 2 ：將應用程式指派給角色</block>
+  <block id="8aa26a83223c9e21349efd7c3717ce88" category="section-title">步驟 3 ：將認證新增至 BlueXP</block>
+  <block id="a411739869aa60f9730ad4b362f8561a" category="summary">設定 Azure Active Directory 應用程式並建立工作環境、即可開始使用 Azure NetApp Files 。</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">快速入門工作流程</block>
+  <block id="916f4838efcb3a299051cc70e41f521e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ed69a3c57e90df42781856a93d94fa32" category="inline-link-macro-rx"></block></block>
+  <block id="f952808a17fec1373e3f634132b93787" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="b5471f633d6bbd5984c5b9bab2234762" category="inline-link-macro-rx"></block></block>
+  <block id="b8d5d2846f8945e381075b2ce9a76df4" category="paragraph">在 BlueXP 中、按一下 * 新增工作環境 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 、然後提供 AD 應用程式的詳細資料。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
 </blocks>
