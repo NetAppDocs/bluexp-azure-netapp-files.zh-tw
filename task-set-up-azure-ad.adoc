@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定Azure Active Directory應用程式、並取得BlueXP所需的Azure認證資料、將必要的權限授予Azure帳戶。 
+summary: BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定 Microsoft Entra 應用程式、以及取得 BlueXP 所需的 Azure 認證、將必要的權限授予 Azure 帳戶。 
 ---
-= 設定 Azure AD 應用程式
+= 設定 Microsoft Entra 應用程式
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可�
 
 
 [role="lead"]
-BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定Azure Active Directory（AD）應用程式、並取得BlueXP所需的Azure認證資料、將必要的權限授予Azure帳戶。
+BlueXP需要權限來設定及管理Azure NetApp Files 功能。您可以建立及設定 Microsoft Entra 應用程式、以及取得 BlueXP 所需的 Azure 認證、將必要的權限授予 Azure 帳戶。
 
 
 
-== 步驟 1 ：建立 AD 應用程式
+== 步驟 1 ：建立應用程式
 
-建立Azure AD應用程式與服務主體、以便BlueXP用於角色型存取控制。
+建立 Microsoft Entra 應用程式和服務主體、讓 BlueXP 用於角色型存取控制。
 
 .開始之前
 您必須在 Azure 中擁有適當權限、才能建立 Active Directory 應用程式、並將應用程式指派給角色。如需詳細資訊、請參閱 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 說明文件：必要權限"^]。
 
 .步驟
-. 從 Azure 入口網站開啟 * Azure Active Directory * 服務。
+. 從 Azure 入口網站開啟 * Microsoft Entra ID* 服務。
 +
-image:screenshot_azure_ad.gif["顯示Microsoft Azure中Active Directory服務的快照。"]
+image:screenshot_azure_ad.png["顯示Microsoft Azure中Active Directory服務的快照。"]
 
 . 在功能表中、按一下 * 應用程式註冊 * 。
 . 建立應用程式：
@@ -46,19 +46,19 @@ image:screenshot_azure_ad.gif["顯示Microsoft Azure中Active Directory服務的
 
 . 複製 * 應用程式（用戶端） ID* 和 * 目錄（租戶） ID* 。
 +
-image:screenshot_anf_app_ids.gif["顯示 Azure Active Directory 中應用程式的應用程式（用戶端） ID 和目錄（租戶） ID 的快照。"]
+image:screenshot_anf_app_ids.gif["顯示應用程式（用戶端） ID 和目錄（租戶） ID 的螢幕擷取畫面、適用於 Microsoft Entra ID 中的應用程式。"]
 
 +
 在Azure NetApp Files BlueXP中建立功能不全的環境時、您需要提供應用程式的應用程式（用戶端）ID和目錄（租戶）ID。BlueXP使用ID以程式設計方式登入。
 
-. 建立應用程式的用戶端機密、以便BlueXP使用它來驗證Azure AD：
+. 為應用程式建立用戶端機密、以便 BlueXP 使用它來驗證 Microsoft Entra ID ：
 +
 .. 按一下 * 「憑證與機密」 > 「新用戶端機密」 * 。
 .. 提供機密與持續時間的說明。
 .. 按一下「 * 新增 * 」。
 .. 複製用戶端機密的值。
 +
-image:screenshot_anf_client_secret.gif["Azure 入口網站的快照、顯示 Azure AD 服務主體的用戶端機密。"]
+image:screenshot_anf_client_secret.gif["Azure 入口網站的螢幕擷取畫面、顯示 Microsoft Entra 服務主體的用戶端機密。"]
 
 
 
@@ -149,7 +149,7 @@ image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」�
 . 按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。
 +
 .. *認證資料位置*：選擇* Microsoft Azure > BlueXP*。
-.. *定義認證*：輸入Azure Active Directory服務主體的相關資訊、以授予必要的權限：
+.. * 定義認證 * ：輸入 Microsoft Entra 服務授權者的相關資訊、以授予必要的權限：
 +
 *** 用戶端機密
 *** 應用程式（用戶端）ID
