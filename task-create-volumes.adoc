@@ -22,8 +22,6 @@ summary: 設定工作環境之後、您就可以建立Azure NetApp Files 各種�
 
 您可以在新 Azure NetApp Files 的或現有的支援帳戶中建立 NFS 或 SMB 磁碟區。
 
-稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <<從範本建立磁碟區,這些步驟>>。
-
 .開始之前
 * 若要使用SMB、您必須設定DNS和Active Directory。
 * 規劃建立 SMB Volume 時、您必須擁有可連線的 Windows Active Directory 伺服器。建立磁碟區時、您將輸入此資訊。
@@ -69,46 +67,6 @@ image:screenshot_anf_smb.gif["設定SMB Volume所需欄位的快照。"]
 新磁碟區會新增至工作環境。
 
 繼續 <<掛載磁碟區,掛載雲端Volume>>。
-
-
-
-== 從範本建立磁碟區
-
-如果貴組織已建立Azure NetApp Files 了針對特定應用程式的工作負載需求最佳化的功能、以便部署這些磁碟區、請依照本節中的步驟進行。
-
-範本應能讓您的工作更輕鬆、因為範本中已定義了某些Volume參數、例如容量集區、大小、傳輸協定、vnet和磁碟區應位於的子網路等。當參數已預先定義時、您只需跳至下一個Volume參數即可。
-
-.步驟
-. 在「畫版」頁面上、按一下Azure NetApp Files 您要配置Volume的功能區環境。
-. 按一下 image:screenshot_gallery_options.gif["更多按鈕"] >*從範本新增Volume *。
-+
-image:screenshot_template_add_vol_anf.png["顯示如何從範本新增磁碟區的快照。"]
-
-. 在「選取範本_」頁面中、選取您要用來建立磁碟區的範本、然後按一下「*下一步*」。
-+
-image:screenshot_select_template_anf.png["可用應用程式範本的快照。"]
-
-+
-此時會顯示「定義參數_」頁面。
-
-+
-image:screenshot_define_anf_vol_from_template.png["顯示空白範本的螢幕快照、您必須填寫才能建立Volume。"]
-
-+
-*注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
-
-. 新增所有非模板硬編碼的參數值。請參閱 <<建立磁碟區,建立 Volume>> 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。
-. 定義完此Volume所需的所有參數後、請按一下*執行範本*。
-
-
-.結果
-BlueXP會配置磁碟區並顯示頁面、以便您查看進度。
-
-image:screenshot_template_creating_resource_anf.png["快照顯示從範本建立新磁碟區的進度。"]
-
-然後新磁碟區便會新增至工作環境。
-
-繼續掛載雲端磁碟區。
 
 
 

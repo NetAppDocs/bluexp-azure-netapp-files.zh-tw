@@ -134,12 +134,10 @@
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">設定工作環境之後、您就可以建立Azure NetApp Files 各種帳戶、容量資源池和磁碟區。</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">您可以在新 Azure NetApp Files 的或現有的支援帳戶中建立 NFS 或 SMB 磁碟區。</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">這些步驟</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
   <block id="871a29db0a928b46295d82cee2357c13" category="list-text">若要使用SMB、您必須設定DNS和Active Directory。</block>
   <block id="943219d5074bb5ad25a6a5caf2ffdd2a" category="list-text">規劃建立 SMB Volume 時、您必須擁有可連線的 Windows Active Directory 伺服器。建立磁碟區時、您將輸入此資訊。</block>
@@ -165,26 +163,6 @@
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">新磁碟區會新增至工作環境。</block>
   <block id="eaae7feedfb57c4ccdcc53c186726c56" category="inline-xref">掛載雲端Volume</block>
   <block id="2f8952d0a4fb138ef90f78fb9a50fe88" category="paragraph">繼續 <block ref="b0f2178360372267ad19e1e8e4741e99" category="inline-xref-macro-rx"></block>。</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">從範本建立磁碟區</block>
-  <block id="4a856903cf54bbb57bd5703d54583103" category="paragraph">如果貴組織已建立Azure NetApp Files 了針對特定應用程式的工作負載需求最佳化的功能、以便部署這些磁碟區、請依照本節中的步驟進行。</block>
-  <block id="8d69897f39fda1e4779ad2d9ff4939c4" category="paragraph">範本應能讓您的工作更輕鬆、因為範本中已定義了某些Volume參數、例如容量集區、大小、傳輸協定、vnet和磁碟區應位於的子網路等。當參數已預先定義時、您只需跳至下一個Volume參數即可。</block>
-  <block id="f1a38681016ccf53a8d2c2fad98c7db2" category="list-text">在「畫版」頁面上、按一下Azure NetApp Files 您要配置Volume的功能區環境。</block>
-  <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">更多按鈕</block>
-  <block id="f96393c48de5eddb1a2818124e9040b6" category="list-text">按一下 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> &gt;*從範本新增Volume *。</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">顯示如何從範本新增磁碟區的快照。</block>
-  <block id="098587c5859901ecc32e7a709cb2129f" category="paragraph"><block ref="098587c5859901ecc32e7a709cb2129f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b33742921c3a09b3c0916cff2d87632" category="list-text">在「選取範本_」頁面中、選取您要用來建立磁碟區的範本、然後按一下「*下一步*」。</block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">可用應用程式範本的快照。</block>
-  <block id="e9be4d5050c4e00aff6426b7045f1b6a" category="paragraph"><block ref="e9be4d5050c4e00aff6426b7045f1b6a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">此時會顯示「定義參數_」頁面。</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">顯示空白範本的螢幕快照、您必須填寫才能建立Volume。</block>
-  <block id="93fdd25da4e72c932b99d601b637202f" category="paragraph"><block ref="93fdd25da4e72c932b99d601b637202f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="31f425aaa6a26f3fc5e635704753602f" category="paragraph">*注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。</block>
-  <block id="2bc51d1d472e80f2611fe5ff280c4ebe" category="list-text">定義完此Volume所需的所有參數後、請按一下*執行範本*。</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">快照顯示從範本建立新磁碟區的進度。</block>
-  <block id="4ad07dd99a58c5fa556826f4f972a56e" category="paragraph"><block ref="4ad07dd99a58c5fa556826f4f972a56e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然後新磁碟區便會新增至工作環境。</block>
-  <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">繼續掛載雲端磁碟區。</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">掛載磁碟區</block>
   <block id="8298547bbbd227879ca27d72eedeb07a" category="list-text">將游標移到磁碟區上、然後選取 * 掛載磁碟區 * 。</block>
   <block id="ed098667e58a3c583c4147e4fd6baaa8" category="inline-image-macro">當您將游標暫留在磁碟區上時、可用作業的快照。</block>
@@ -254,8 +232,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP會配置磁碟區並顯示頁面、以便您查看進度。</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">*帳戶類型*：選取帳戶類型（任何帳戶類型均可用於BlueXP）。</block>
   <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">在Azure NetApp Files BlueXP中建立功能不全的環境時、您需要提供應用程式的應用程式（用戶端）ID和目錄（租戶）ID。BlueXP使用ID以程式設計方式登入。</block>
@@ -387,8 +363,6 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">選取以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">選取以管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 結案案例 * ：提供結案原因的詳細資料、並選取 * 結案案例 * 。</block>
-  <block id="2ed978d3284ec9503be973d54abd5507" category="inline-xref">建立 Volume</block>
-  <block id="d3685c976ba0d8be55399dcb8023edd0" category="list-text">新增所有非模板硬編碼的參數值。請參閱 <block ref="94c7da97446a939ca89601c141819f83" category="inline-xref-macro-rx"></block> 如需部署Azure NetApp Files 一套解決方案的所有必要參數詳細資訊、請參閱。</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -431,4 +405,8 @@
   <block id="ffbef04ea072f1887001d16556efc89e" category="summary">設定 Microsoft Entra 應用程式並建立工作環境、即可開始使用 Azure NetApp Files 。</block>
   <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
   <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">從 Azure 將權限授予 Microsoft Entra 應用程式、並複製應用程式（用戶端） ID 、目錄（租戶） ID 及用戶端機密的值。</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
 </blocks>
