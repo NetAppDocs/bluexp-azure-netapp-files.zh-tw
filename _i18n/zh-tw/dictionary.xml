@@ -409,4 +409,12 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024 年 6 月 12 日</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">需要新權限</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">現在需要具備下列權限才能從 BlueXP 管理 Azure NetApp Files 磁碟區：</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">讀取虛擬網路子網路需要此權限。</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">如果您目前是從 BlueXP 管理 Azure NetApp Files 、則需要將此權限新增至與您先前建立的 Microsoft Entra 應用程式相關聯的自訂角色。</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">瞭解如何設定 Microsoft Entra 應用程式、以及檢視自訂角色權限</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>。</block>
 </blocks>

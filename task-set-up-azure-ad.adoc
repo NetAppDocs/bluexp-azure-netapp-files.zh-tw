@@ -97,6 +97,7 @@ image:screenshot_azure_access_control.gif["顯示在Azure入口網站中新增�
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Resources/subscriptions/resourceGroups/write",
     "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Network/virtualNetworks/subnets/read",
     "Microsoft.Insights/Metrics/Read"
     ],
 ----
