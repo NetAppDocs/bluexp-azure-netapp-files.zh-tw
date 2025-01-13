@@ -41,9 +41,15 @@ image:screenshot_anf_create_account.png["建立 Azure NetApp Files 一個包含�
 如果您建立新的容量集區、則需要指定大小並選取 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels["服務層級"^]。
 
 +
-容量集區的最小大小為 4 TB 。您可以指定 4 TB 的倍數大小。
+容量集區的最小大小為 1 TB 。
 
-** * 詳細資料與標籤 * ：輸入磁碟區名稱與大小、磁碟區應位於的 vnet 與子網路、以及選擇性地指定磁碟區的標籤。
+** * 詳細資料與標籤 * ：輸入磁碟區名稱與大小，磁碟區所在的 vnet 和子網路，並選擇性地指定磁碟區的標籤。選擇 * 標準 * 或 * 基本 * 網路。* 標準 * 支援虛擬網路（ vnet ）功能，而 * 基本 * 則減少 IP 限制（ <1000 ），而且沒有額外的 vnet 功能。
++
+以下範例說明名為 * demos-s* 的磁碟區，不套用任何標籤，並指出該磁碟區將使用 * Standard* 網路，支援 vnet 功能。
+
++
+image:screenshot-details-tags-create-volume.gif["範例 Volume 的螢幕擷取畫面。"]
+
 ** * 傳輸協定 * ：選擇 NFS 或 SMB 傳輸協定、然後輸入所需的資訊。
 +
 以下是 NFS 詳細資料的範例。
@@ -62,9 +68,6 @@ image:screenshot_anf_smb.gif["設定SMB Volume所需欄位的快照。"]
 . 如果您想要根據現有磁碟區的快照來建立此磁碟區、請從Snapshot Name（快照名稱）下拉式清單中選取快照。
 . 按一下 * 新增 Volume * 。
 
-
-.結果
-新磁碟區會新增至工作環境。
 
 繼續 <<掛載磁碟區,掛載雲端Volume>>。
 

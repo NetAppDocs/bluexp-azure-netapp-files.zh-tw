@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: 本文檔 Azure NetApp Files
+  summary: 適用於核心商業應用程式的Microsoft Azure原生高效能檔案儲存服務。Azure NetApp Files本文件說明如何Azure NetApp
+    Files 使用NetApp BlueXP設定及管理功能。
+  keywords: Azure NetApp files, BlueXP
+  lead: 適用於核心商業應用程式的Microsoft Azure原生高效能檔案儲存服務。Azure NetApp Files本文件說明如何Azure NetApp
+    Files 使用NetApp BlueXP設定及管理功能。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 深入瞭解 Azure NetApp Files
+      url: concept-azure-netapp-files.html
+    - title: 快速入門
+      url: task-quick-start.html
+  - title: 使用Azure NetApp Files
+    links:
+    - title: 建立磁碟區
+      url: task-create-volumes.html
+    - title: 管理磁碟區
+      url: task-manage-volumes.html
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP部落格
+      url: https://cloud.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://cloud.netapp.com/events

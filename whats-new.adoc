@@ -18,35 +18,23 @@ summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。
 
 
 
-== 2024 年 6 月 12 日
+== 2024 年 1 月 13 日
 
 
 
-=== 需要新權限
+=== BlueXP  目前支援的網路功能
 
-現在需要具備下列權限才能從 BlueXP 管理 Azure NetApp Files 磁碟區：
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-讀取虛擬網路子網路需要此權限。
-
-如果您目前是從 BlueXP 管理 Azure NetApp Files 、則需要將此權限新增至與您先前建立的 Microsoft Entra 應用程式相關聯的自訂角色。
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["瞭解如何設定 Microsoft Entra 應用程式、以及檢視自訂角色權限"]。
-
-
-
-== 2024 年 4 月 22 日
-
-
-
-=== 不再支援 Volume 範本
-
-您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
+從 BlueXP  在 Azure NetApp Files 中設定 Volume 時，您現在可以指定網路功能。這與原生 Azure NetApp Files 中可用的功能一致。
 
 
 
 == 2021年4月11日
+
+
+
+=== 支援Volume範本
+
+全新的應用程式範本服務可讓您設定Azure NetApp Files 適用於各種應用程式的Volume範本。範本應能讓您的工作更輕鬆、因為範本中已定義了某些Volume參數、例如容量集區、大小、傳輸協定、vnet和磁碟區應位於的子網路等。當參數已預先定義時、您只需跳至下一個Volume參數即可。
 
 
 

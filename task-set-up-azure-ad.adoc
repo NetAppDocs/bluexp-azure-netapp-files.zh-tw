@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」�
 *** 應用程式（用戶端）ID
 *** 目錄（租戶）ID
 +
-您應該在掌握這項資訊的同時 <<Create the AD application,已建立AD應用程式>>。
+您應該已經擷取了這些資訊<<create-AD-application,已建立AD應用程式>>。
 
 
 
