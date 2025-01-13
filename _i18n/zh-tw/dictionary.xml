@@ -348,11 +348,11 @@
   <block id="10bf7641576f767efba644c9606f6cc9" category="paragraph">您應該已經擷取了這些資訊<block ref="3d73f215425eb80e2dfd60570210a450" category="inline-xref-macro-rx"></block>。</block>
   <block id="ce52a320f18bd38ac094ba2db0b8f361" category="section-title">2024 年 1 月 13 日</block>
   <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">BlueXP  目前支援的網路功能</block>
-  <block id="4a54d31f5399a3b4ca4479fc3818c42c" category="paragraph">從 BlueXP  在 Azure NetApp Files 中設定 Volume 時，您現在可以指定網路功能。這與原生 Azure NetApp Files 中可用的功能一致。</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">管理磁碟區</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="79d2f91b3755917d79acfd5be561d67b" category="paragraph">從 BlueXP  在 Azure NetApp Files 中設定 Volume 時，您現在可以指定網路功能。這與原生 Azure NetApp Files 中可用的功能一致。</block>
 </blocks>
