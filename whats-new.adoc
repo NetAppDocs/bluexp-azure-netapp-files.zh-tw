@@ -18,7 +18,7 @@ summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。
 
 
 
-== 2024 年 1 月 13 日
+== 2025 年 1 月 13 日
 
 
 
@@ -28,7 +28,7 @@ summary: 瞭Azure NetApp Files 解BlueXP支援功能的新功能。
 
 
 
-== bbe4d8abcc3519b138a73b8e46ee2119
+== 2024 年 12 月 6 日
 
 
 
@@ -46,7 +46,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-== 9d5b3307d5a7d5905623bf21ab049bdd
+== 2024 年 4 月 22 日
 
 
 
