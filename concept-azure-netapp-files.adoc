@@ -51,7 +51,7 @@ https://azure.microsoft.com/pricing/details/netapp/["檢視 Azure NetApp Files �
 
 == 支援的地區
 
-https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援的 Azure 地區"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["檢視支援的 Azure 地區"^]
 
 
 
@@ -63,7 +63,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援的 Azure 地
 
 == 相關連結
 
-* https://cloud.netapp.com/azure-netapp-files["NetApp BlueXP網站Azure NetApp Files"^]
-* https://docs.microsoft.com/azure/azure-netapp-files/["本文檔 Azure NetApp Files"^]
-* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXP 複本與同步文件"^]
+* link:https://bluexp.netapp.com/azure-netapp-files["NetApp BlueXP網站Azure NetApp Files"^]
+* link:https://learn.microsoft.com/azure/azure-netapp-files/["本文檔 Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXP 複本與同步文件"^]
 

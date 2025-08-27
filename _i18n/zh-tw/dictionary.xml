@@ -127,11 +127,9 @@
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支援的地區</block>
   <block id="d6c4ca89b6d4950d0522d6198b27af71" category="inline-link">檢視支援的 Azure 地區</block>
-  <block id="e478c46d3908f35ce837f4cc77afb89b" category="paragraph"><block ref="e478c46d3908f35ce837f4cc77afb89b" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">取得協助</block>
   <block id="edc3629fc8102552dbd6ec1e10e2b821" category="paragraph">如需 Azure NetApp Files 有關支援方面的技術支援問題、請使用 Azure 入口網站將支援要求記錄給 Microsoft 。選取您的相關 Microsoft 訂閱、然後在 Azure NetApp Files * Storage* 下選取 * 《 * 》服務名稱。提供建立 Microsoft 支援要求所需的其餘資訊。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">相關連結</block>
-  <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">設定工作環境之後、您就可以建立Azure NetApp Files 各種帳戶、容量資源池和磁碟區。</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
@@ -175,7 +173,6 @@
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP的其他功能</block>
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">請注意、您的訂閱和收費是Azure NetApp Files 由不受BlueXP保護的功能所維護。</block>
   <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP網站Azure NetApp Files</block>
-  <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
   <block id="13c43cfa248ee9ee48d1991c668474b0" category="summary">此動作會從Azure NetApp Files BlueXP移除不必要的功能。它不會刪除 Azure NetApp Files 您的不知道帳戶或磁碟區。您可以Azure NetApp Files 隨時將此更新加入到BlueXP。</block>
   <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">按一下「移除Azure NetApp Files 功能」以從BlueXP介面移除磁碟區的快照。</block>
   <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
@@ -183,7 +180,6 @@
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
@@ -218,7 +214,6 @@
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="6da49039903bd37fcbedcd3b748acd84" category="paragraph">當您建立Azure NetApp Files 支援功能的環境時、系統會提示您選擇與服務主體相關的認證資料。在建立工作環境之前、您必須先將這些認證資料新增至BlueXP。</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">顯示BlueXP主控台右上角「設定」圖示的快照。</block>
@@ -271,13 +266,11 @@
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>。</block>
   <block id="2b881280cd278901df007a5e13d4bcd6" category="paragraph"><block ref="2b881280cd278901df007a5e13d4bcd6" category="inline-link-rx"></block></block>
   <block id="f55b18eeaddb29e4e968d14603f99e82" category="paragraph"><block ref="f55b18eeaddb29e4e968d14603f99e82" category="inline-link-rx"></block></block>
-  <block id="bee3f8c9efef3b37d46180b5f2f33e22" category="list-text"><block ref="bee3f8c9efef3b37d46180b5f2f33e22" category="inline-link-rx"></block></block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
@@ -372,8 +365,6 @@
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">若要確認註冊程序是否成功、請選取「說明」圖示、然後選取 * 「支援 * 」。</block>
   <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">「 * 資源 * 」頁面應顯示您的 BlueXP  組織已註冊取得支援。</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP  組織尚未註冊取得支援。只要組織中有一位使用者遵循這些步驟、您的組織就已註冊。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
@@ -428,4 +419,13 @@
   <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">2025 年 1 月 13 日</block>
   <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024 年 12 月 6 日</block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
+  <block id="267c2c68dd571445da799a8af484fa6e" category="paragraph"><block ref="267c2c68dd571445da799a8af484fa6e" category="inline-link-rx"></block></block>
+  <block id="0a473259b2d8928f27298185efa66717" category="list-text"><block ref="0a473259b2d8928f27298185efa66717" category="inline-link-macro-rx"></block></block>
+  <block id="f7d58c22d89e4cb8d67018180686bc09" category="list-text"><block ref="f7d58c22d89e4cb8d67018180686bc09" category="inline-link-macro-rx"></block></block>
+  <block id="d8100bf16245081cb178d3f0f7280b56" category="list-text"><block ref="d8100bf16245081cb178d3f0f7280b56" category="inline-link-macro-rx"></block></block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
